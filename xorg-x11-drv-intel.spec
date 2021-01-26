@@ -90,8 +90,8 @@ find $RPM_BUILD_ROOT -regex ".*\.la$" | xargs rm -f --
 rm -f $RPM_BUILD_ROOT%{_libdir}/libI*XvMC.so
 
 
-%ldconfig_post
-%ldconfig_postun
+%post -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
 
 %files
 %doc COPYING
