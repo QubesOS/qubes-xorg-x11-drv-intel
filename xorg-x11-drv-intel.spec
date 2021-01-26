@@ -1,6 +1,6 @@
 %define moduledir %(pkg-config xorg-server --variable=moduledir )
 %define driverdir	%{moduledir}/drivers
-%define gitdate 20200205
+%define gitdate 20210126
 %define gitrev .%{gitdate}
 
 %undefine _hardened_build
@@ -103,6 +103,9 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/libI*XvMC.so
 %{_bindir}/intel-virtual-output
 
 %changelog
+* Tue Jan 26 2021 Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com> - 2.99.917-50.20210126
+- New git snapshot
+
 * Thu Nov  5 12:40:02 AEST 2020 Peter Hutterer <peter.hutterer@redhat.com> - 2.99.917-49.20200205
 - Add BuildRequires for make
 
