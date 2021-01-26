@@ -106,7 +106,7 @@ rm -f $RPM_BUILD_ROOT%{_libdir}/libI*XvMC.so
 * Tue Jan 26 2021 Marek Marczykowski-Górecki <marmarek@invisiblethingslab.com> - 2.99.917-50.20210126
 - New git snapshot
 
-* Thu Nov  5 12:40:02 AEST 2020 Peter Hutterer <peter.hutterer@redhat.com> - 2.99.917-49.20200205
+* Thu Nov  5 2020 Peter Hutterer <peter.hutterer@redhat.com> - 2.99.917-49.20200205
 - Add BuildRequires for make
 
 * Sat Aug 01 2020 Fedora Release Engineering <releng@fedoraproject.org> - 2.99.917-48.20200205
