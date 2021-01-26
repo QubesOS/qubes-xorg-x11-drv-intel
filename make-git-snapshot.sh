@@ -14,7 +14,7 @@ echo HEAD ${1:-HEAD}
 rm -rf $DIRNAME
 
 git clone ${REF:+--reference $REF} \
-	git://git.freedesktop.org/git/xorg/driver/xf86-video-intel $DIRNAME
+	https://gitlab.freedesktop.org/xorg/driver/xf86-video-intel.git $DIRNAME
 
 GIT_DIR=$DIRNAME/.git git archive --format=tar --prefix=$DIRNAME/ ${1:-HEAD} \
 	| bzip2 > $DIRNAME.tar.bz2
