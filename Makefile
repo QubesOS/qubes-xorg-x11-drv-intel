@@ -4,7 +4,9 @@ SRC_FILE = $(notdir $(URL))
 
 UNTRUSTED_SUFF := .UNTRUSTED
 
-FETCH_CMD := wget --no-use-server-timestamps -q -O
+ifeq ($(FETCH_CMD),)
+$(error "You can not run this Makefile without having FETCH_CMD defined")
+endif
 
 SHELL := /bin/bash
 %: %.sha512
