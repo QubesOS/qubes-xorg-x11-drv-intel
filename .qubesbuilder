@@ -1,0 +1,8 @@
+host:
+  rpm:
+    spec:
+    - xorg-x11-drv-intel.spec
+source:
+  files:
+  - url: https://ftp.qubes-os.org/distfiles/xf86-video-intel-20210126.tar.bz2
+    sha512: xf86-video-intel-20210126.tar.bz2.sha512
