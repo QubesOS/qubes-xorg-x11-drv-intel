@@ -1,6 +1,6 @@
 host:
   rpm:
-    spec:
+    build:
     - xorg-x11-drv-intel.spec
 source:
   files:
