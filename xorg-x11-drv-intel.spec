@@ -8,7 +8,7 @@
 Summary:   Xorg X11 Intel video driver
 Name:      xorg-x11-drv-intel
 Version:   2.99.917
-Release:   49%{?gitrev}%{?dist}
+Release:   50%{?gitrev}%{?dist}
 URL:       http://www.x.org
 License:   MIT
 
